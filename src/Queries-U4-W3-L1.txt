@@ -1,0 +1,6 @@
+1- select * from customers where name = 'Mario'
+2- select name, surname from customers where date_of_birth = 1982
+3- select invoice_id from invoices where iva = 20%
+4- select * from products where enable_date = 2017 and (producing = true or selling = true)
+5- select invoices, customers from invoices inner join customers on invoices.price > 1000
+6- select invoices_id, price, iva, date from invoices inner join suppliers on supplier_id
